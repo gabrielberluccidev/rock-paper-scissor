@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.choice,
+.results {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 16px;
+}
+
+.results {
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+}
